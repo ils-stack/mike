@@ -43,6 +43,10 @@
     <style>
         body { overflow-x: hidden; }
 
+        .navbar-dark {
+            background-color: #E34234 !important;
+        }
+
         .kanban-card {
           cursor: move;
         }
@@ -110,7 +114,7 @@
 <body>
 
 <!-- Top Navbar -->
-<nav class="navbar navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-dark sticky-top">
     <div class="container-fluid align-items-center">
 
         <button class="btn btn-outline-light me-2" id="toggleSidebar">
