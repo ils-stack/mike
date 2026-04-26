@@ -26,9 +26,9 @@
             </td>
 
             <td class="text-center">
-                <a href="/holdings?acc={{ $contract->account_number }}" class="text-primary">
+                <span class="text-muted" title="Holdings temporarily disabled" style="cursor: not-allowed; opacity: 0.6;">
                     <i class="fas fa-eye"></i>
-                </a>
+                </span>
             </td>
         </tr>
 

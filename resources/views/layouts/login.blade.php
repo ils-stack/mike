@@ -69,6 +69,11 @@
       font-size: 1.8rem;
       font-weight: bold;
     }
+    .vsure-crm-logo img {
+      display: block;
+      height: 56px;
+      margin: 0 auto 8px;
+    }
     .vsure-crm-logo span {
       color: #fff;
       font-size: 0.8rem;
@@ -90,6 +95,7 @@
 <div class="login-wrapper">
   <div class="login-card rounded">
     <div class="vsure-crm-logo">
+      <img src="{{ asset('assets/img/vsure.png') }}" alt="Vsure logo">
       Vsure CRM<br><span>ERP Solutions</span>
     </div>
 
