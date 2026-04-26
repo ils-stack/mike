@@ -1,0 +1,13 @@
+TRUNCATE TABLE `ss_incomes`;
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('3', 'Non-Pensionable Salary', '1', '2', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('4', 'Pensionable Salary', '1', '1', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('5', 'Commission', '1', '3', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('6', 'Overtime', '1', '4', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('7', 'Rental Income', '1', '5', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('8', 'Dividends', '1', '6', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('9', 'Passive Income', '0', '7', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('10', 'Investment Income', '0', '8', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('11', 'Annuity', '0', '9', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('12', 'Pension', '0', '10', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('13', 'Alimony', '0', '11', '0');
+INSERT INTO `ss_incomes` (`incomeid`, `incomename`, `incomestatus`, `incomeorder`, `parentid`) VALUES ('14', 'Child Support', '0', '12', '0');

@@ -1,0 +1,16 @@
+// Bootstrap core styles
+@import "~bootstrap/scss/bootstrap";
+
+// Custom Dark theme overrides
+body {
+  background-color: #121212;
+  color: #eee;
+}
+
+.navbar-dark {
+  background-color: #222 !important;
+}
+
+.container {
+  padding-top: 2rem;
+}

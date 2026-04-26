@@ -1,0 +1,2445 @@
+####### 2026-02-10 05:53:27 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+Already up to date.
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 05:54:28 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   d4e64647..216f7aa4  main       -> origin/main
+Updating d4e64647..216f7aa4
+Fast-forward
+ resources/views/layouts/login.blade.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 05:55:10 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   216f7aa4..15d93c6f  main       -> origin/main
+Updating 216f7aa4..15d93c6f
+Fast-forward
+ resources/views/layouts/login.blade.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:05:11 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   15d93c6f..5a31b07b  main       -> origin/main
+Updating 15d93c6f..5a31b07b
+Fast-forward
+ .DS_Store                               | Bin 20484 -> 20484 bytes
+ public/.DS_Store                        | Bin 10244 -> 10244 bytes
+ public/assets/.DS_Store                 | Bin 10244 -> 10244 bytes
+ public/assets/banners/cape_dark.png     | Bin 0 -> 1160963 bytes
+ public/assets/banners/crm.png           | Bin 0 -> 150884 bytes
+ resources/views/layouts/login.blade.php |  44 +++++++++++++++++++++++---------
+ 6 files changed, 32 insertions(+), 12 deletions(-)
+ create mode 100644 public/assets/banners/cape_dark.png
+ create mode 100644 public/assets/banners/crm.png
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:16:40 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   5a31b07b..a03f7ab7  main       -> origin/main
+Updating 5a31b07b..a03f7ab7
+Fast-forward
+ resources/views/inc/side.blade.php | 178 +++++++++++++--------
+ routes/web.php                     | 298 ----------------------------------
+ routes/web_bkp.php                 | 316 +++++++++++++++++++++++++++++++++++++
+ 3 files changed, 424 insertions(+), 368 deletions(-)
+ create mode 100644 routes/web_bkp.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:25:04 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   a03f7ab7..8171a75e  main       -> origin/main
+Updating a03f7ab7..8171a75e
+Fast-forward
+ .DS_Store                                          | Bin 20484 -> 20484 bytes
+ app/Http/Controllers/BladeController.php           | 103 +++++++++++++++++++++
+ public/assets/.DS_Store                            | Bin 10244 -> 12292 bytes
+ resources/.DS_Store                                | Bin 14340 -> 14340 bytes
+ resources/views/.DS_Store                          | Bin 6148 -> 6148 bytes
+ resources/views/clients/client-list.blade.php      |   5 +
+ resources/views/clients/family-details.blade.php   |   5 +
+ resources/views/clients/notes-tasks.blade.php      |   5 +
+ resources/views/dashboard/home.blade.php           |   5 +
+ resources/views/documents/dropbox-assets.blade.php |   5 +
+ resources/views/documents/pdf-import.blade.php     |   5 +
+ resources/views/documents/web-docs.blade.php       |   5 +
+ resources/views/documents/web-images.blade.php     |   5 +
+ resources/views/finance/assets.blade.php           |   5 +
+ resources/views/finance/budget.blade.php           |   5 +
+ resources/views/finance/calculators.blade.php      |   5 +
+ resources/views/finance/reports.blade.php          |   5 +
+ resources/views/insurance/compliance.blade.php     |   5 +
+ resources/views/insurance/policies.blade.php       |   5 +
+ routes/web.php                                     |  63 ++++++++++---
+ 20 files changed, 225 insertions(+), 11 deletions(-)
+ create mode 100644 app/Http/Controllers/BladeController.php
+ create mode 100644 resources/views/clients/client-list.blade.php
+ create mode 100644 resources/views/clients/family-details.blade.php
+ create mode 100644 resources/views/clients/notes-tasks.blade.php
+ create mode 100644 resources/views/dashboard/home.blade.php
+ create mode 100644 resources/views/documents/dropbox-assets.blade.php
+ create mode 100644 resources/views/documents/pdf-import.blade.php
+ create mode 100644 resources/views/documents/web-docs.blade.php
+ create mode 100644 resources/views/documents/web-images.blade.php
+ create mode 100644 resources/views/finance/assets.blade.php
+ create mode 100644 resources/views/finance/budget.blade.php
+ create mode 100644 resources/views/finance/calculators.blade.php
+ create mode 100644 resources/views/finance/reports.blade.php
+ create mode 100644 resources/views/insurance/compliance.blade.php
+ create mode 100644 resources/views/insurance/policies.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:31:44 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   8171a75e..30c083a1  main       -> origin/main
+Updating 8171a75e..30c083a1
+Fast-forward
+ public/assets/.DS_Store      | Bin 12292 -> 12292 bytes
+ public/assets/img/koin_5.png | Bin 71992 -> 1372522 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:32:57 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   30c083a1..520781f5  main       -> origin/main
+Updating 30c083a1..520781f5
+Fast-forward
+ resources/views/layouts/app.blade.php | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:41:48 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   520781f5..6a6c3041  main       -> origin/main
+Updating 520781f5..6a6c3041
+Fast-forward
+ resources/views/dashboard/home.blade.php | 118 ++++++++++++++++++++++++++++++-
+ 1 file changed, 117 insertions(+), 1 deletion(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 07:45:47 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   6a6c3041..6830f446  main       -> origin/main
+Updating 6a6c3041..6830f446
+Fast-forward
+ resources/views/dashboard/home.blade.php | 44 ++++++++++++++++++++++++++++++++
+ 1 file changed, 44 insertions(+)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 08:15:52 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   6830f446..3990b2c3  main       -> origin/main
+Updating 6830f446..3990b2c3
+Fast-forward
+ resources/views/clients/family-details.blade.php | 148 ++++++++++++++++++++++-
+ resources/views/clients/notes-tasks.blade.php    |  92 +++++++++++++-
+ 2 files changed, 238 insertions(+), 2 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 08:18:52 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   3990b2c3..c9ab77a2  main       -> origin/main
+Updating 3990b2c3..c9ab77a2
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 26 +++++++++++++++++++-------
+ resources/views/layouts/app.blade.php         | 13 +++++++++++++
+ 2 files changed, 32 insertions(+), 7 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 08:23:34 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   c9ab77a2..ec7bf6af  main       -> origin/main
+Updating c9ab77a2..ec7bf6af
+Fast-forward
+ resources/views/finance/budget.blade.php | 146 ++++++++++++++++++++++++++++++-
+ 1 file changed, 145 insertions(+), 1 deletion(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 08:28:29 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   ec7bf6af..346fe36a  main       -> origin/main
+Updating ec7bf6af..346fe36a
+Fast-forward
+ resources/views/finance/calculators.blade.php | 111 +++++++++++++++++++++++++-
+ 1 file changed, 110 insertions(+), 1 deletion(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-10 08:30:24 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   346fe36a..778dc2b5  main       -> origin/main
+Updating 346fe36a..778dc2b5
+Fast-forward
+ resources/views/finance/calculators.blade.php | 232 +++++++++++++++++---------
+ 1 file changed, 153 insertions(+), 79 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-19 07:18:07 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   778dc2b5..4aac38fe  main       -> origin/main
+Updating 778dc2b5..4aac38fe
+Fast-forward
+ .DS_Store                                  | Bin 20484 -> 20484 bytes
+ .env                                       |  24 +++-
+ app/Http/Controllers/AdvisorController.php |  51 +++++++
+ app/Http/Controllers/BladeController.php   |  67 ++++++++-
+ app/Http/Controllers/SecureRequest.php     | 209 +++++++++++++++++++++++++++++
+ app/Models/Advisor.php                     |  21 +++
+ bootstrap/app.php                          |   1 +
+ config/globals.php                         |  16 +++
+ routes/api.php                             |   6 +
+ storage/.DS_Store                          | Bin 10244 -> 10244 bytes
+ 10 files changed, 392 insertions(+), 3 deletions(-)
+ create mode 100644 app/Http/Controllers/AdvisorController.php
+ create mode 100644 app/Http/Controllers/SecureRequest.php
+ create mode 100644 app/Models/Advisor.php
+ create mode 100644 config/globals.php
+ create mode 100644 routes/api.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-19 07:34:03 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   4aac38fe..20d2173f  main       -> origin/main
+Updating 4aac38fe..20d2173f
+Fast-forward
+ .DS_Store                                | Bin 20484 -> 20484 bytes
+ app/Http/Controllers/BladeController.php | 122 +++++++++++++++----------------
+ 2 files changed, 61 insertions(+), 61 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-19 10:08:41 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   20d2173f..718291a6  main       -> origin/main
+Updating 20d2173f..718291a6
+Fast-forward
+ app/Http/Controllers/AdvisorController.php | 168 ++++++++++++++++++++++++++++-
+ app/Models/Contract.php                    |  23 ++++
+ app/Models/Investor.php                    |  20 ++++
+ routes/api.php                             |   3 +
+ 4 files changed, 211 insertions(+), 3 deletions(-)
+ create mode 100644 app/Models/Contract.php
+ create mode 100644 app/Models/Investor.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-02-19 15:18:42 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   718291a6..4d1772fa  main       -> origin/main
+Updating 718291a6..4d1772fa
+Fast-forward
+ app/Http/Controllers/AdvisorController.php | 99 ++++++++++++++++++++++++++++--
+ app/Http/Controllers/SecureRequest.php     |  4 ++
+ routes/api.php                             |  8 ++-
+ 3 files changed, 106 insertions(+), 5 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 07:33:05 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   4d1772fa..62b48929  main       -> origin/main
+Updating 4d1772fa..62b48929
+Fast-forward
+ app/Http/Controllers/DashboardController.php |  33 ++++++
+ resources/views/dashboard/home.blade.php     | 163 +++++++++++---------------
+ resources/views/dashboard/home_bkp.blade.php | 165 +++++++++++++++++++++++++++
+ resources/views/layouts/app.blade.php        |   2 +-
+ routes/web.php                               |   9 +-
+ 5 files changed, 272 insertions(+), 100 deletions(-)
+ create mode 100644 app/Http/Controllers/DashboardController.php
+ create mode 100644 resources/views/dashboard/home_bkp.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 08:00:42 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   62b48929..947a3002  main       -> origin/main
+Updating 62b48929..947a3002
+Fast-forward
+ app/Http/Controllers/DashboardController.php | 14 ++++++++++++++
+ resources/views/dashboard/home.blade.php     | 25 +++++++++++++++++++++++--
+ 2 files changed, 37 insertions(+), 2 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 13:41:03 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   947a3002..92857dfe  main       -> origin/main
+Updating 947a3002..92857dfe
+Fast-forward
+ resources/views/dashboard/home.blade.php           | 138 ++++++---------------
+ .../views/dashboard/partials/advisors.blade.php    |  59 +++++++++
+ .../views/dashboard/partials/contracts.blade.php   |  65 ++++++++++
+ .../views/dashboard/partials/quicklinks.blade.php  |  41 ++++++
+ resources/views/layouts/app.blade.php              |  30 ++---
+ 5 files changed, 217 insertions(+), 116 deletions(-)
+ create mode 100644 resources/views/dashboard/partials/advisors.blade.php
+ create mode 100644 resources/views/dashboard/partials/contracts.blade.php
+ create mode 100644 resources/views/dashboard/partials/quicklinks.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 14:05:20 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   92857dfe..98b1ac61  main       -> origin/main
+Updating 92857dfe..98b1ac61
+Fast-forward
+ app/Http/Controllers/DashboardController.php       | 37 ++++++++++++-
+ resources/views/dashboard/home.blade.php           | 62 ++++++++++++----------
+ .../views/dashboard/partials/advisors.blade.php    |  2 +-
+ .../views/dashboard/partials/contracts.blade.php   | 34 ++++++++----
+ 4 files changed, 94 insertions(+), 41 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 14:42:47 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   98b1ac61..d1625cea  main       -> origin/main
+Updating 98b1ac61..d1625cea
+Fast-forward
+ app/Http/Controllers/DashboardController.php       | 10 ++--
+ .../views/dashboard/partials/contracts.blade.php   | 60 ++++------------------
+ .../views/dashboard/partials/dash_kpi.blade.php    | 41 +++++++++++++++
+ .../views/dashboard/partials/datatable.blade.php   | 53 +++++++++++++++++++
+ 4 files changed, 107 insertions(+), 57 deletions(-)
+ create mode 100644 resources/views/dashboard/partials/dash_kpi.blade.php
+ create mode 100644 resources/views/dashboard/partials/datatable.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 15:10:38 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   d1625cea..60120783  main       -> origin/main
+Updating d1625cea..60120783
+Fast-forward
+ ...185ec0ad3f525bfa3bba5bd5b3fa089a158aada.json.gz | Bin 0 -> 356 bytes
+ ...f4c965bb11b593a87bb18eef4bddcc185f72b8f.json.gz | Bin 0 -> 367 bytes
+ public/assets/.DS_Store                            | Bin 12292 -> 10244 bytes
+ public/assets/banners/.DS_Store                    | Bin 6148 -> 6148 bytes
+ public/assets/img/koin_5.png                       | Bin 1372522 -> 71992 bytes
+ public/assets/img/optimate.png                     | Bin 0 -> 42021 bytes
+ public/js/app.js                                   |  98 ++++++++++-----------
+ public/mix-manifest.json                           |   7 +-
+ resources/assets/img/optimate.png                  | Bin 0 -> 42021 bytes
+ resources/views/inc/side.blade.php                 |  41 +++++----
+ resources/views/layouts/app.blade.php              |   4 +-
+ 11 files changed, 82 insertions(+), 68 deletions(-)
+ create mode 100644 node_modules/.cache/babel-loader/9edced37ee84129b471aeed70185ec0ad3f525bfa3bba5bd5b3fa089a158aada.json.gz
+ create mode 100644 node_modules/.cache/babel-loader/d8e5ff5e67edadaed926f1036f4c965bb11b593a87bb18eef4bddcc185f72b8f.json.gz
+ create mode 100644 public/assets/img/optimate.png
+ create mode 100644 resources/assets/img/optimate.png
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 15:12:10 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   60120783..a5d1bdac  main       -> origin/main
+Updating 60120783..a5d1bdac
+Fast-forward
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 15:13:01 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+Already up to date.
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-04 15:25:43 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   a5d1bdac..43fd0575  main       -> origin/main
+Updating a5d1bdac..43fd0575
+Fast-forward
+ resources/views/inc/side.blade.php | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-05 02:48:25 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   43fd0575..c7088ae2  main       -> origin/main
+Updating 43fd0575..c7088ae2
+Fast-forward
+ .../views/dashboard/partials/datatable.blade.php   | 22 ++++++++--------------
+ 1 file changed, 8 insertions(+), 14 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-05 03:04:47 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   c7088ae2..5f551fe0  main       -> origin/main
+Updating c7088ae2..5f551fe0
+Fast-forward
+ app/Http/Controllers/DashboardController.php | 18 +++++++++---------
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-05 03:06:13 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   5f551fe0..01fe0f22  main       -> origin/main
+Updating 5f551fe0..01fe0f22
+Fast-forward
+ app/Http/Controllers/DashboardController.php | 3 +++
+ 1 file changed, 3 insertions(+)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-08 11:58:02 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   01fe0f22..cc1f10d7  main       -> origin/main
+Updating 01fe0f22..cc1f10d7
+Fast-forward
+ app/Http/Controllers/EntitiesController.php        | 725 +++++++++++++++++++++
+ config/globals.php                                 |  15 +
+ resources/views/.DS_Store                          | Bin 6148 -> 6148 bytes
+ .../views/dashboard/partials/datatable.blade.php   |   4 +-
+ resources/views/holdings/list.blade.php            | 203 ++++++
+ .../holdings/partials/acc_docs_holdings.blade.php  |  20 +
+ .../views/holdings/partials/doc_grid.blade.php     |  19 +
+ .../views/holdings/partials/docgrid_ele.blade.php  |  11 +
+ .../views/holdings/partials/holddetgrid.blade.php  | 101 +++
+ .../holdings/partials/icard_hold_det.blade.php     |  41 ++
+ .../views/holdings/partials/infocard_det.blade.php |  41 ++
+ .../views/holdings/partials/irrann_det.blade.php   |  40 ++
+ .../views/holdings/partials/irrcum_det.blade.php   |  25 +
+ .../holdings/partials/prev_holddetgrid.blade.php   |  89 +++
+ .../views/holdings/partials/scard_1.blade.php      |  24 +
+ .../views/holdings/partials/scard_2.blade.php      |  25 +
+ .../views/holdings/partials/scard_3.blade.php      |  25 +
+ routes/web.php                                     |   3 +
+ 18 files changed, 1410 insertions(+), 1 deletion(-)
+ create mode 100644 app/Http/Controllers/EntitiesController.php
+ create mode 100644 resources/views/holdings/list.blade.php
+ create mode 100644 resources/views/holdings/partials/acc_docs_holdings.blade.php
+ create mode 100644 resources/views/holdings/partials/doc_grid.blade.php
+ create mode 100644 resources/views/holdings/partials/docgrid_ele.blade.php
+ create mode 100644 resources/views/holdings/partials/holddetgrid.blade.php
+ create mode 100644 resources/views/holdings/partials/icard_hold_det.blade.php
+ create mode 100644 resources/views/holdings/partials/infocard_det.blade.php
+ create mode 100644 resources/views/holdings/partials/irrann_det.blade.php
+ create mode 100644 resources/views/holdings/partials/irrcum_det.blade.php
+ create mode 100644 resources/views/holdings/partials/prev_holddetgrid.blade.php
+ create mode 100644 resources/views/holdings/partials/scard_1.blade.php
+ create mode 100644 resources/views/holdings/partials/scard_2.blade.php
+ create mode 100644 resources/views/holdings/partials/scard_3.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-08 12:35:51 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   cc1f10d7..5d40e99a  main       -> origin/main
+Updating cc1f10d7..5d40e99a
+Fast-forward
+ app/Http/Controllers/EntitiesController.php        | 127 +++++++++++++++++
+ resources/views/holdings/list.blade.php            |  96 +++++--------
+ .../views/holdings/partials/holddet_ele.blade.php  |  39 ++++++
+ .../views/holdings/partials/holddetgrid.blade.php  | 153 ++++++++++-----------
+ .../holdings/partials/prev_holddetgrid.blade.php   | 139 ++++++++++---------
+ 5 files changed, 348 insertions(+), 206 deletions(-)
+ create mode 100644 resources/views/holdings/partials/holddet_ele.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-08 12:46:47 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   5d40e99a..e6a4719f  main       -> origin/main
+Updating 5d40e99a..e6a4719f
+Fast-forward
+ app/Http/Controllers/EntitiesController.php        | 48 ++++++++++++++++++++++
+ .../holdings/partials/acc_docs_holdings.blade.php  |  2 +-
+ .../views/holdings/partials/doc_grid.blade.php     |  2 +-
+ 3 files changed, 50 insertions(+), 2 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-11 12:02:28 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   e6a4719f..39b8ea08  main       -> origin/main
+Updating e6a4719f..39b8ea08
+Fast-forward
+ app/Http/Controllers/DashboardController.php       |   6 +
+ app/Http/Controllers/EntitiesController.php        | 429 +++++++++++----------
+ .../views/dashboard/partials/datatable.blade.php   |   2 +-
+ .../holdings/partials/prev_hold_det_ele.blade.php  |  21 +
+ .../holdings/partials/prev_holddetgrid.blade.php   |   4 +-
+ 5 files changed, 251 insertions(+), 211 deletions(-)
+ create mode 100644 resources/views/holdings/partials/prev_hold_det_ele.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-11 12:22:20 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   39b8ea08..c08f3a6b  main       -> origin/main
+Updating 39b8ea08..c08f3a6b
+Fast-forward
+ resources/views/holdings/partials/prev_holddetgrid.blade.php | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-11 12:51:42 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   c08f3a6b..9ecae2f7  main       -> origin/main
+Updating c08f3a6b..9ecae2f7
+Fast-forward
+ app/Http/Controllers/EntitiesController.php | 386 ++++++++++++++--------------
+ 1 file changed, 197 insertions(+), 189 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-11 13:51:33 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   9ecae2f7..1192392b  main       -> origin/main
+Updating 9ecae2f7..1192392b
+Fast-forward
+ app/Http/Controllers/EntitiesController.php | 6 ++++++
+ 1 file changed, 6 insertions(+)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-11 13:53:17 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   1192392b..910122ca  main       -> origin/main
+Updating 1192392b..910122ca
+Fast-forward
+ app/Http/Controllers/EntitiesController.php | 52 ++++++++++++++---------------
+ 1 file changed, 26 insertions(+), 26 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-11 15:30:45 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   910122ca..0e00678e  main       -> origin/main
+Updating 910122ca..0e00678e
+Fast-forward
+ resources/views/holdings/list.blade.php                       | 6 +++---
+ resources/views/holdings/partials/acc_docs_holdings.blade.php | 2 +-
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-12 05:37:27 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   0e00678e..9102d25f  main       -> origin/main
+Updating 0e00678e..9102d25f
+Fast-forward
+ app/Http/Controllers/StatementController.php | 131 +++++++++++++++++++++++++++
+ routes/web.php                               |   2 +
+ 2 files changed, 133 insertions(+)
+ create mode 100644 app/Http/Controllers/StatementController.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-13 13:49:35 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   9102d25f..521acd87  main       -> origin/main
+Updating 9102d25f..521acd87
+Fast-forward
+ app/Http/Controllers/CapRequest.php          | 113 ++++++++++++++
+ app/Http/Controllers/SecureRequest.php       |  56 ++++++-
+ app/Http/Controllers/SecureRequest_bkp.php   | 213 +++++++++++++++++++++++++++
+ app/Http/Controllers/StatementController.php |  90 +++++++----
+ 4 files changed, 436 insertions(+), 36 deletions(-)
+ create mode 100644 app/Http/Controllers/CapRequest.php
+ create mode 100644 app/Http/Controllers/SecureRequest_bkp.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-13 13:59:32 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   521acd87..f4f765a2  main       -> origin/main
+Updating 521acd87..f4f765a2
+Fast-forward
+ app/Http/Controllers/StatementController.php | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 18:43:07 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   f4f765a2..b021f714  main       -> origin/main
+Updating f4f765a2..b021f714
+Fast-forward
+ .DS_Store                                     | Bin 20484 -> 20484 bytes
+ resources/views/clients/notes-tasks.blade.php | 314 ++++++++++++++++++++++----
+ 2 files changed, 274 insertions(+), 40 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 19:01:39 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   b021f714..5aeb4e26  main       -> origin/main
+Updating b021f714..5aeb4e26
+Fast-forward
+ app/Http/Controllers/BladeController.php      |  28 ++-
+ resources/views/clients/notes-tasks.blade.php | 339 +++++++++++++++++++++++++-
+ 2 files changed, 353 insertions(+), 14 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 19:21:12 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   5aeb4e26..8ed20965  main       -> origin/main
+Updating 5aeb4e26..8ed20965
+Fast-forward
+ app/Http/Controllers/BladeController.php           | 35 ++++++++-
+ app/Models/NoteTask.php                            | 56 ++++++++++++++
+ app/Models/NoteTaskList.php                        | 31 ++++++++
+ ..._03_27_000001_create_notes_task_lists_table.php | 51 ++++++++++++
+ .../2026_03_27_000002_create_notes_tasks_table.php | 36 +++++++++
+ resources/views/clients/notes-tasks.blade.php      | 90 +++++++++++++++++++---
+ routes/web.php                                     |  1 +
+ 7 files changed, 289 insertions(+), 11 deletions(-)
+ create mode 100644 app/Models/NoteTask.php
+ create mode 100644 app/Models/NoteTaskList.php
+ create mode 100644 database/migrations/2026_03_27_000001_create_notes_task_lists_table.php
+ create mode 100644 database/migrations/2026_03_27_000002_create_notes_tasks_table.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 19:32:06 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   8ed20965..870ee565  main       -> origin/main
+Updating 8ed20965..870ee565
+Fast-forward
+ app/Http/Controllers/BladeController.php      |  66 +++++--
+ resources/views/clients/notes-tasks.blade.php | 260 +++++++++++++++++++++++---
+ routes/web.php                                |   2 +
+ 3 files changed, 287 insertions(+), 41 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 19:39:09 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   870ee565..2964073e  main       -> origin/main
+Updating 870ee565..2964073e
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 13 +++++++------
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 19:46:04 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   2964073e..96727d1b  main       -> origin/main
+Updating 2964073e..96727d1b
+Fast-forward
+ app/Http/Controllers/BladeController.php      | 17 ++++++++
+ resources/views/clients/notes-tasks.blade.php | 59 +++++++++++++++++++++++----
+ routes/web.php                                |  1 +
+ 3 files changed, 70 insertions(+), 7 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:09:40 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   96727d1b..91994422  main       -> origin/main
+Updating 96727d1b..91994422
+Fast-forward
+ app/Http/Controllers/BladeController.php      |  20 +-
+ resources/views/clients/notes-tasks.blade.php | 271 ++++++++++++++++++++++++--
+ 2 files changed, 276 insertions(+), 15 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:16:49 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   91994422..87158c25  main       -> origin/main
+Updating 91994422..87158c25
+Fast-forward
+ app/Http/Controllers/BladeController.php      |  14 +-
+ resources/views/clients/notes-tasks.blade.php | 211 +++++++++++++++++++-------
+ 2 files changed, 173 insertions(+), 52 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:23:40 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   87158c25..f4c4e09d  main       -> origin/main
+Updating 87158c25..f4c4e09d
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:30:20 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   f4c4e09d..f6d0ed2d  main       -> origin/main
+Updating f4c4e09d..f6d0ed2d
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:36:19 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   f6d0ed2d..a483da26  main       -> origin/main
+Updating f6d0ed2d..a483da26
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:38:41 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   a483da26..b8d7f866  main       -> origin/main
+Updating a483da26..b8d7f866
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:40:56 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   b8d7f866..75f34d31  main       -> origin/main
+Updating b8d7f866..75f34d31
+Fast-forward
+ resources/views/clients/notes-tasks.blade.php | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 20:48:40 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   75f34d31..09e91277  main       -> origin/main
+Updating 75f34d31..09e91277
+Fast-forward
+ resources/views/dashboard/partials/quicklinks.blade.php | 14 ++++++++------
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 21:00:36 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   09e91277..4e38ab5f  main       -> origin/main
+Updating 09e91277..4e38ab5f
+Fast-forward
+ resources/views/inc/side.blade.php | 59 +++-----------------------------------
+ routes/web.php                     |  1 +
+ 2 files changed, 5 insertions(+), 55 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-26 21:03:49 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   4e38ab5f..0da594f4  main       -> origin/main
+Updating 4e38ab5f..0da594f4
+Fast-forward
+ .../views/dashboard/partials/quicklinks.blade.php  | 42 ++++++++++++----------
+ 1 file changed, 24 insertions(+), 18 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-27 06:43:24 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   0da594f4..64a05d6d  main       -> origin/main
+Updating 0da594f4..64a05d6d
+Fast-forward
+ app/Http/Controllers/BladeController.php         |  26 +-
+ resources/views/clients/family-details.blade.php | 332 ++++++++++++++++++++---
+ 2 files changed, 323 insertions(+), 35 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-03-27 07:58:41 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   64a05d6d..0282ab16  main       -> origin/main
+Updating 64a05d6d..0282ab16
+Fast-forward
+ app/Http/Controllers/BladeController.php           | 165 +++++++-
+ app/Models/ClientDetail.php                        |  35 ++
+ app/Models/Dependant.php                           |  35 ++
+ app/Models/SpouseDetail.php                        |  35 ++
+ ...26_03_27_000003_create_client_details_table.php |  36 ++
+ ...26_03_27_000004_create_spouse_details_table.php |  36 ++
+ .../2026_03_27_000005_create_dependants_table.php  |  34 ++
+ resources/views/clients/family-details.blade.php   | 456 ++++++++++++---------
+ routes/web.php                                     |   1 +
+ 9 files changed, 644 insertions(+), 189 deletions(-)
+ create mode 100644 app/Models/ClientDetail.php
+ create mode 100644 app/Models/Dependant.php
+ create mode 100644 app/Models/SpouseDetail.php
+ create mode 100644 database/migrations/2026_03_27_000003_create_client_details_table.php
+ create mode 100644 database/migrations/2026_03_27_000004_create_spouse_details_table.php
+ create mode 100644 database/migrations/2026_03_27_000005_create_dependants_table.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-07 08:51:12 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   0282ab16..1e57ea31  main       -> origin/main
+Updating 0282ab16..1e57ea31
+Fast-forward
+ app/Http/Controllers/ReportsController.php         | 146 +++++++++++++++++++
+ resources/views/finance/reports.blade.php          |  17 ++-
+ .../views/reports/policy-schedule-pdf.blade.php    | 155 +++++++++++++++++++++
+ routes/web.php                                     |   2 +
+ 4 files changed, 319 insertions(+), 1 deletion(-)
+ create mode 100644 app/Http/Controllers/ReportsController.php
+ create mode 100644 resources/views/reports/policy-schedule-pdf.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 09:37:11 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   1e57ea31..ebdffbdb  main       -> origin/main
+Updating 1e57ea31..ebdffbdb
+Fast-forward
+ app/Http/Controllers/BladeController.php           |   2 +-
+ .../Controllers/ShortAssessmentAjaxController.php  | 774 +++++++++++++++++++++
+ app/Http/Controllers/ShortAssessmentController.php |  31 +
+ app/Models/EstateCashFlow.php                      |  14 +
+ app/Models/Expenses.php                            |  14 +
+ app/Models/Incomes.php                             |  14 +
+ app/Models/SsTaxRebate.php                         |  12 +
+ app/Models/SsTaxTable.php                          |  12 +
+ ...reate_tbl_estate_assessment_cash_flow_table.php |  36 +
+ ...026_04_26_000002_create_ss_tax_rebate_table.php |  28 +
+ ...2026_04_26_000003_create_ss_tax_table_table.php |  29 +
+ ...6_04_26_000004_create_ss_users_fields_table.php |  31 +
+ .../2026_04_26_000005_create_ss_incomes_table.php  |  28 +
+ .../2026_04_26_000006_create_ss_expenses_table.php |  28 +
+ database/seed-data/ss_expenses.sql                 |  82 +++
+ database/seed-data/ss_incomes.sql                  |  13 +
+ database/seed-data/ss_tax_rebate.sql               |  54 ++
+ database/seed-data/ss_tax_table.sql                | 117 ++++
+ database/seeders/DatabaseSeeder.php                |   2 +
+ database/seeders/ShortAssessmentLookupSeeder.php   |  32 +
+ .../views/dashboard/partials/quicklinks.blade.php  |   2 +-
+ resources/views/finance/calculators.blade.php      | 188 -----
+ resources/views/inc/disability_short_fe.blade.php  | 494 +++++++++++++
+ resources/views/inc/estate_short_fe.blade.php      | 486 +++++++++++++
+ resources/views/inc/retire_short_fe.blade.php      | 542 +++++++++++++++
+ resources/views/inc/retire_summ.blade.php          | 128 ++++
+ resources/views/inc/retirecalc_fields.blade.php    | 147 ++++
+ resources/views/inc/retirecalc_fvs.blade.php       | 125 ++++
+ resources/views/inc/short_assess_btns_fe.blade.php |  52 ++
+ resources/views/inc/side.blade.php                 |   7 +-
+ resources/views/layouts/app.blade.php              |  49 ++
+ .../views/short_assessments/disability.blade.php   |  21 +
+ resources/views/short_assessments/estate.blade.php |  21 +
+ .../views/short_assessments/retirement.blade.php   |  21 +
+ resources/views/short_assessments/tax.blade.php    | 374 ++++++++++
+ routes/web.php                                     |  27 +
+ 36 files changed, 3846 insertions(+), 191 deletions(-)
+ create mode 100644 app/Http/Controllers/ShortAssessmentAjaxController.php
+ create mode 100644 app/Http/Controllers/ShortAssessmentController.php
+ create mode 100644 app/Models/EstateCashFlow.php
+ create mode 100644 app/Models/Expenses.php
+ create mode 100644 app/Models/Incomes.php
+ create mode 100644 app/Models/SsTaxRebate.php
+ create mode 100644 app/Models/SsTaxTable.php
+ create mode 100644 database/migrations/2026_04_26_000001_create_tbl_estate_assessment_cash_flow_table.php
+ create mode 100644 database/migrations/2026_04_26_000002_create_ss_tax_rebate_table.php
+ create mode 100644 database/migrations/2026_04_26_000003_create_ss_tax_table_table.php
+ create mode 100644 database/migrations/2026_04_26_000004_create_ss_users_fields_table.php
+ create mode 100644 database/migrations/2026_04_26_000005_create_ss_incomes_table.php
+ create mode 100644 database/migrations/2026_04_26_000006_create_ss_expenses_table.php
+ create mode 100644 database/seed-data/ss_expenses.sql
+ create mode 100644 database/seed-data/ss_incomes.sql
+ create mode 100644 database/seed-data/ss_tax_rebate.sql
+ create mode 100644 database/seed-data/ss_tax_table.sql
+ create mode 100644 database/seeders/ShortAssessmentLookupSeeder.php
+ delete mode 100644 resources/views/finance/calculators.blade.php
+ create mode 100644 resources/views/inc/disability_short_fe.blade.php
+ create mode 100644 resources/views/inc/estate_short_fe.blade.php
+ create mode 100644 resources/views/inc/retire_short_fe.blade.php
+ create mode 100644 resources/views/inc/retire_summ.blade.php
+ create mode 100644 resources/views/inc/retirecalc_fields.blade.php
+ create mode 100644 resources/views/inc/retirecalc_fvs.blade.php
+ create mode 100644 resources/views/inc/short_assess_btns_fe.blade.php
+ create mode 100644 resources/views/short_assessments/disability.blade.php
+ create mode 100644 resources/views/short_assessments/estate.blade.php
+ create mode 100644 resources/views/short_assessments/retirement.blade.php
+ create mode 100644 resources/views/short_assessments/tax.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 10:46:55 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   ebdffbdb..7ea48116  main       -> origin/main
+Updating ebdffbdb..7ea48116
+Fast-forward
+ app/Http/Controllers/BudgetAssetController.php     | 127 ++++++++++++++++
+ app/Http/Controllers/BudgetController.php          | 145 ++++++++++++++++++
+ .../Concerns/InteractsWithBudgetAssetData.php      | 167 +++++++++++++++++++++
+ app/Models/SsAls.php                               |  14 ++
+ app/Models/SsUsersFields.php                       |  21 +++
+ .../2026_04_26_000007_create_ss_als_table.php      |  25 +++
+ ...6_000008_add_legacy_columns_to_ss_als_table.php |  36 +++++
+ database/seed-data/ss_als.sql                      |   7 +
+ database/seeders/ShortAssessmentLookupSeeder.php   |   1 +
+ resources/views/assets.blade.php                   | 150 ++++++++++++++++++
+ resources/views/budgetCurrent.blade.php            |  54 +++++++
+ resources/views/budgetDisability.blade.php         |  54 +++++++
+ resources/views/budgetEstate.blade.php             |  54 +++++++
+ resources/views/budgetRetirement.blade.php         |  54 +++++++
+ resources/views/inc/assets_grid.blade.php          | 108 +++++++++++++
+ resources/views/inc/budget_btns.blade.php          |  25 +++
+ resources/views/inc/curr_budget_rep.blade.php      |  27 ++++
+ resources/views/inc/current_budget_grid.blade.php  |  61 ++++++++
+ resources/views/inc/current_expense_grid.blade.php |  57 +++++++
+ resources/views/inc/current_expense_rep.blade.php  |   8 +
+ .../views/inc/disability_budget_grid.blade.php     |  61 ++++++++
+ .../views/inc/disability_expense_grid.blade.php    |  57 +++++++
+ resources/views/inc/estate_budget_grid.blade.php   |  61 ++++++++
+ resources/views/inc/estate_expense_grid.blade.php  |  57 +++++++
+ resources/views/inc/retire_budget_grid.blade.php   |  61 ++++++++
+ .../views/inc/retirement_expense_grid.blade.php    |  57 +++++++
+ resources/views/inc/side.blade.php                 |   2 +-
+ resources/views/layouts/rep.blade.php              |  11 ++
+ resources/views/pdf/asset_block.blade.php          |  15 ++
+ resources/views/pdf/asset_report.blade.php         | 128 ++++++++++++++++
+ resources/views/pdf/asset_rows.blade.php           |  91 +++++++++++
+ resources/views/pdf/budgetCurrent_rep.blade.php    | 131 ++++++++++++++++
+ routes/web.php                                     |  29 +++-
+ 33 files changed, 1953 insertions(+), 3 deletions(-)
+ create mode 100644 app/Http/Controllers/BudgetAssetController.php
+ create mode 100644 app/Http/Controllers/BudgetController.php
+ create mode 100644 app/Http/Controllers/Concerns/InteractsWithBudgetAssetData.php
+ create mode 100644 app/Models/SsAls.php
+ create mode 100644 app/Models/SsUsersFields.php
+ create mode 100644 database/migrations/2026_04_26_000007_create_ss_als_table.php
+ create mode 100644 database/migrations/2026_04_26_000008_add_legacy_columns_to_ss_als_table.php
+ create mode 100644 database/seed-data/ss_als.sql
+ create mode 100644 resources/views/assets.blade.php
+ create mode 100644 resources/views/budgetCurrent.blade.php
+ create mode 100644 resources/views/budgetDisability.blade.php
+ create mode 100644 resources/views/budgetEstate.blade.php
+ create mode 100644 resources/views/budgetRetirement.blade.php
+ create mode 100644 resources/views/inc/assets_grid.blade.php
+ create mode 100644 resources/views/inc/budget_btns.blade.php
+ create mode 100644 resources/views/inc/curr_budget_rep.blade.php
+ create mode 100644 resources/views/inc/current_budget_grid.blade.php
+ create mode 100644 resources/views/inc/current_expense_grid.blade.php
+ create mode 100644 resources/views/inc/current_expense_rep.blade.php
+ create mode 100644 resources/views/inc/disability_budget_grid.blade.php
+ create mode 100644 resources/views/inc/disability_expense_grid.blade.php
+ create mode 100644 resources/views/inc/estate_budget_grid.blade.php
+ create mode 100644 resources/views/inc/estate_expense_grid.blade.php
+ create mode 100644 resources/views/inc/retire_budget_grid.blade.php
+ create mode 100644 resources/views/inc/retirement_expense_grid.blade.php
+ create mode 100644 resources/views/layouts/rep.blade.php
+ create mode 100644 resources/views/pdf/asset_block.blade.php
+ create mode 100644 resources/views/pdf/asset_report.blade.php
+ create mode 100644 resources/views/pdf/asset_rows.blade.php
+ create mode 100644 resources/views/pdf/budgetCurrent_rep.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 11:41:26 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   7ea48116..7051be33  main       -> origin/main
+Updating 7ea48116..7051be33
+Fast-forward
+ app/Http/Controllers/SourceController.php          | 1492 ++++++++++++++++
+ app/Models/SourceAltName.php                       |   18 +
+ app/Models/SourceFileImportBatch.php               |   28 +
+ app/Models/SourceFileImportColumn.php              |   28 +
+ app/Models/SourceFileImportRow.php                 |   27 +
+ app/Models/SourceFileMetadata.php                  |   32 +
+ ...16_000000_create_source_file_metadata_table.php |   28 +
+ ...d_provider_id_to_source_file_metadata_table.php |   22 +
+ ..._16_000002_create_source_file_import_tables.php |   48 +
+ ...make_source_file_metadata_provider_nullable.php |   17 +
+ ..._04_16_000004_create_source_alt_names_table.php |   23 +
+ resources/views/inc/side.blade.php                 |    8 +
+ resources/views/source/index.blade.php             | 1849 ++++++++++++++++++++
+ routes/source.routes.php                           |   19 +
+ routes/web.php                                     |    2 +
+ 15 files changed, 3641 insertions(+)
+ create mode 100644 app/Http/Controllers/SourceController.php
+ create mode 100644 app/Models/SourceAltName.php
+ create mode 100644 app/Models/SourceFileImportBatch.php
+ create mode 100644 app/Models/SourceFileImportColumn.php
+ create mode 100644 app/Models/SourceFileImportRow.php
+ create mode 100644 app/Models/SourceFileMetadata.php
+ create mode 100644 database/migrations/2026_04_16_000000_create_source_file_metadata_table.php
+ create mode 100644 database/migrations/2026_04_16_000001_add_provider_id_to_source_file_metadata_table.php
+ create mode 100644 database/migrations/2026_04_16_000002_create_source_file_import_tables.php
+ create mode 100644 database/migrations/2026_04_16_000003_make_source_file_metadata_provider_nullable.php
+ create mode 100644 database/migrations/2026_04_16_000004_create_source_alt_names_table.php
+ create mode 100644 resources/views/source/index.blade.php
+ create mode 100644 routes/source.routes.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 12:04:57 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   7051be33..3e1dbf99  main       -> origin/main
+Updating 7051be33..3e1dbf99
+Fast-forward
+ app/Models/BrokerMaster.php                        | 13 +++++++
+ app/Models/Dumper.php                              | 17 +++++++++
+ app/Models/DumperRowAssign.php                     | 17 +++++++++
+ app/Models/Products.php                            | 13 +++++++
+ app/Models/SsCommDta.php                           | 32 +++++++++++++++++
+ .../2026_04_26_000100_create_ss_products_table.php | 26 ++++++++++++++
+ ...026_04_26_000101_create_broker_master_table.php | 40 ++++++++++++++++++++++
+ .../2026_04_26_000102_create_ss_comm_dta_table.php | 35 +++++++++++++++++++
+ .../2026_04_26_000103_create_dumper_table.php      | 35 +++++++++++++++++++
+ ...04_26_000104_create_dumper_row_assign_table.php | 23 +++++++++++++
+ 10 files changed, 251 insertions(+)
+ create mode 100644 app/Models/BrokerMaster.php
+ create mode 100644 app/Models/Dumper.php
+ create mode 100644 app/Models/DumperRowAssign.php
+ create mode 100644 app/Models/Products.php
+ create mode 100644 app/Models/SsCommDta.php
+ create mode 100644 database/migrations/2026_04_26_000100_create_ss_products_table.php
+ create mode 100644 database/migrations/2026_04_26_000101_create_broker_master_table.php
+ create mode 100644 database/migrations/2026_04_26_000102_create_ss_comm_dta_table.php
+ create mode 100644 database/migrations/2026_04_26_000103_create_dumper_table.php
+ create mode 100644 database/migrations/2026_04_26_000104_create_dumper_row_assign_table.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 12:10:25 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   3e1dbf99..03c04d57  main       -> origin/main
+Updating 3e1dbf99..03c04d57
+Fast-forward
+ database/seeders/SourceBrokerMasterSeeder.php     | 71 +++++++++++++++++++++++
+ database/seeders/SourceModuleDependencySeeder.php | 16 +++++
+ database/seeders/SourceProductsSeeder.php         | 29 +++++++++
+ 3 files changed, 116 insertions(+)
+ create mode 100644 database/seeders/SourceBrokerMasterSeeder.php
+ create mode 100644 database/seeders/SourceModuleDependencySeeder.php
+ create mode 100644 database/seeders/SourceProductsSeeder.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 13:14:36 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   03c04d57..4670e00e  main       -> origin/main
+Updating 03c04d57..4670e00e
+Fast-forward
+ app/Http/Controllers/PropertyDocsController.php    | 211 ++++++++++++++++
+ .../2026_04_18_000006_add_property_docs_module.php |  36 +++
+ ..._create_assets_and_asset_assignments_tables.php |  41 ++++
+ resources/views/layouts/property_details.blade.php |   2 +
+ resources/views/properties/prop_det_card.blade.php |   5 +
+ .../views/properties/unit_list_block.blade.php     |   8 +
+ resources/views/property_docs/index.blade.php      | 272 +++++++++++++++++++++
+ resources/views/property_docs/modal.blade.php      | 207 ++++++++++++++++
+ routes/web.php                                     |  14 +-
+ 9 files changed, 795 insertions(+), 1 deletion(-)
+ create mode 100644 app/Http/Controllers/PropertyDocsController.php
+ create mode 100644 database/migrations/2026_04_18_000006_add_property_docs_module.php
+ create mode 100644 database/migrations/2026_04_26_000105_create_assets_and_asset_assignments_tables.php
+ create mode 100644 resources/views/property_docs/index.blade.php
+ create mode 100644 resources/views/property_docs/modal.blade.php
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2026-04-26 13:34:49 #######
+$ echo $PWD
+/var/www/demo/public_html/public
+$ whoami
+www-data
+$ git pull
+From github.com:ils-stack/demo-crm
+   4670e00e..73ae9a8b  main       -> origin/main
+Updating 4670e00e..73ae9a8b
+Fast-forward
+ app/Http/Controllers/PropertyDocsController.php    | 29 ++++++++++++++--
+ resources/views/properties/prop_det_card.blade.php |  4 +--
+ .../views/properties/unit_list_block.blade.php     |  4 +--
+ resources/views/property_docs/index.blade.php      | 40 +++++++---------------
+ resources/views/property_docs/modal.blade.php      | 10 +++---
+ routes/web.php                                     |  2 ++
+ 6 files changed, 50 insertions(+), 39 deletions(-)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
