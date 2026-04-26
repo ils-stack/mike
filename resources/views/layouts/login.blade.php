@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Demo CRM Login</title>
+  <title>Vsure CRM Login</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
   html, body {
@@ -61,7 +61,7 @@
       box-shadow: 0 0 12px rgba(0,0,0,0.3);
       border-radius: 0.5rem;
     }
-    .demo-crm-logo {
+    .vsure-crm-logo {
       background-color: #E34234;
       color: white;
       text-align: center;
@@ -69,7 +69,7 @@
       font-size: 1.8rem;
       font-weight: bold;
     }
-    .demo-crm-logo span {
+    .vsure-crm-logo span {
       color: #fff;
       font-size: 0.8rem;
       display: block;
@@ -89,8 +89,8 @@
 
 <div class="login-wrapper">
   <div class="login-card rounded">
-    <div class="demo-crm-logo">
-      Demo CRM<br><span>ERP Solutions</span>
+    <div class="vsure-crm-logo">
+      Vsure CRM<br><span>ERP Solutions</span>
     </div>
 
     @if($errors->any())

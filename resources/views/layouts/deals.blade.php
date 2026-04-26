@@ -2,8 +2,8 @@
 
 @section('content')
   <!-- Top Header -->
-  <div class="Demo CRM-header d-flex justify-content-between align-items-center">
-    <div>Demo CRM Properties</div>
+  <div class="vsure-header d-flex justify-content-between align-items-center">
+    <div>Vsure CRM Properties</div>
     <div>
       Deals
     </div>
@@ -118,7 +118,7 @@
       background-color: #f8f9fa;
       font-family: 'Segoe UI', sans-serif;
     }
-    .Demo CRM-header {
+    .vsure-header {
       background-color: #0c2f4e;
       color: white;
       padding: 1rem 1.5rem;

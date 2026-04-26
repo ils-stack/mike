@@ -23,9 +23,9 @@
               <option>For Sale</option>
               <option>Tenanted</option>
               <option>Owner Occupied</option>
-              <option>Sold - Demo CRM</option>
+              <option>Sold - Vsure CRM</option>
               <option>Sold - Other</option>
-              <option>Let - Demo CRM</option>
+              <option>Let - Vsure CRM</option>
               <option>Let - Other</option>
             </select>
           </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>@yield('title', 'Demo CRM Properties')</title>
+    <title>@yield('title', 'Vsure CRM Properties')</title>
 
     <!-- Bootstrap 5 CSS -->
     <!-- do not remove this cdn -->
@@ -100,7 +100,7 @@
 
         <a class="navbar-brand d-flex align-items-center me-auto" href="/">
             <img src="{{ asset('assets/img/koin_5.png') }}" height="30" class="me-2">
-            Demo CRM Properties
+            Vsure CRM Properties
         </a>
 
         <div class="d-flex align-items-center">

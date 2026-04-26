@@ -2,8 +2,8 @@
 
 @section('content')
   <!-- Top Header -->
-  <div class="Demo CRM-header d-flex justify-content-between align-items-center">
-    <div>Demo CRM Properties</div>
+  <div class="vsure-header d-flex justify-content-between align-items-center">
+    <div>Vsure CRM Properties</div>
     <div>
       <span class="me-4">Brochure <span class="badge bg-warning text-dark">0</span></span>
       <span>Welcome Ryan | <a href="#" class="text-warning text-decoration-none">Logout</a></span>
