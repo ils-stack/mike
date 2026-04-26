@@ -63,7 +63,7 @@ body {
 
           <!-- Top-right Superimposed Logo -->
           <div style="position: absolute; top: 2px; right: 2px;">
-            <img src="{{ public_path('assets/img/optimate.png') }}" height="60" alt="" />
+            <img src="{{ public_path('assets/img/vsure.png') }}" height="60" alt="" />
           </div>
 
         </div>

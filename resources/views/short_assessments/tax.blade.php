@@ -16,7 +16,7 @@
         @include('inc.short_assess_btns_fe')
         <div class="row">
           <div class="col-md-12 mb-2 btn-primary rounded-5 p-2" align="center">
-            <strong>Optimate Tax Calculator Using the SA <span id="fyear">{{date('Y')}} - {{date('Y')+1}}</span> Tax Tables</strong>
+            <strong>Vsure Tax Calculator Using the SA <span id="fyear">{{date('Y')}} - {{date('Y')+1}}</span> Tax Tables</strong>
           </div>
         </div>
 

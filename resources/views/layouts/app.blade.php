@@ -118,8 +118,8 @@
         </button>
 
         <a class="navbar-brand d-flex align-items-center me-auto" href="/">
-            <img src="{{ asset('assets/img/optimate.png') }}" height="50" class="me-2">
-            Optimate CRM
+            <img src="{{ asset('assets/img/vsure.png') }}" height="50" class="me-2">
+            Vsure CRM
         </a>
 
         <div class="d-flex align-items-center">
